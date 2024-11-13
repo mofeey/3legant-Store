@@ -1,0 +1,21 @@
+.best-seller {
+
+    // .best-seller__title
+
+    &__title {}
+
+    // .best-seller__cards
+
+    &__cards {
+        margin-top: clamp(1.25rem, 0.7143rem + 2.6786vw, 3.125rem);
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(262px, 1fr));
+        gap: clamp(0.75rem, 0.1071rem + 3.2143vw, 3rem) clamp(0.5rem, 0.2143rem + 1.4286vw, 1.5rem);
+
+
+        @include md {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: url('../../img/hero-bg.webp');
+    background-position: center center;
+    /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    aspect-ratio: 1440 / 820;
+
+    @include sm {
+        background-image: url('../../img/mobile-hero-bg.webp');
+        aspect-ratio: 375 / 690;
+        align-items: unset;
+        padding-top: clamp(1.25rem, -3.4375rem + 23.4375vw, 5rem);
+    }
+
+    // .hero__content
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        color: var(--text-color-darken);
+        width: 50%;
+        margin-left: auto;
+
+        @include sm {
+            width: 100%;
+            align-items: center;
+            justify-self: center;
+        }
+    }
+
+    // .hero__title
+
+    &__title {
+        font-family: var(--font-secondary);
+        font-weight: 500;
+        font-size: clamp(2.5rem, 0.8333rem + 4.6296vw, 5rem);
+        line-height: 100%;
+        letter-spacing: -0.04em;
+
+        @include sm {
+            font-size: clamp(2.5rem, 0.1563rem + 11.7188vw, 4.2rem);
+            max-width: 430px;
+            text-align: center;
+
+        }
+
+        span {
+            color: var(--accent-blue);
+        }
+    }
+
+    // .hero__subtitle
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: clamp(1rem, 0.8333rem + 0.463vw, 1.25rem);
+        line-height: 160%;
+        margin-top: 10px;
+        margin-bottom: clamp(1.25rem, 0.8333rem + 1.1574vw, 1.875rem);
+
+        @include sm {
+            font-size: 20px;
+
+        }
+
+        @include x-sm {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    // .hero__btn
+
+    &__btn {
+        font-size: clamp(0.875rem, 0.7rem + 0.467vw, 1.125rem);
+        line-height: 178%;
+        letter-spacing: -0.02em;
+        padding: 12px 56px;
+        width: 234px;
+
+        @include sm {
+            // width: 70%;
+        }
+    }
+}

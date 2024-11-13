@@ -1,0 +1,19 @@
+.partners {
+    padding: 50px 0;
+    // .partners__content
+
+    &__content {
+        display: flex;
+        column-gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    // .partners__icon
+
+    &__icon {
+        max-width: 165px;
+        opacity: 0.5;
+
+    }
+}

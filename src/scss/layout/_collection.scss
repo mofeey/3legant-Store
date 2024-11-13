@@ -1,0 +1,102 @@
+.collection {
+
+    // .collection__title
+
+    &__title {
+        @include md {
+            text-align: center;
+        }
+    }
+
+    // .collection__cards
+
+    &__cards {
+        margin-top: clamp(1.25rem, 0.7143rem + 2.6786vw, 3.125rem);
+        display: grid;
+        grid-template-columns: repeat(2, minmax(auto, 1fr));
+        grid-auto-rows: clamp(11.25rem, 8.7679rem + 12.4107vw, 19.9375rem);
+        gap: 16px;
+
+        @include sm {
+            justify-content: center;
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows: clamp(11.25rem, 2.6556rem + 42.9721vw, 18.125rem);
+        }
+    }
+
+    // .collection__card
+
+    &__card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: var(--text-color-darken);
+        padding: clamp(2rem, 1.6479rem + 1.5023vw, 3rem);
+
+        &_headband {
+            background-image: url('../../img/headband-bg.webp');
+            background-position: center center;
+            /* x y */
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            grid-row: 1 / 3;
+        }
+
+        &_earbuds {
+            background-image: url('../../img/earbuds-bg.webp');
+            background-position: center center;
+            /* x y */
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        &_accessories {
+            background-image: url('../../img/accessories-bg.webp');
+            background-position: center center;
+            /* x y */
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+
+    }
+
+    // .collection__info
+
+    &__info {
+        display: inline-flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    &__name {
+        font-family: var(--font-secondary);
+        font-weight: 500;
+        font-size: clamp(1.75rem, 1.6429rem + 0.5357vw, 2.125rem);
+        line-height: 112%;
+        letter-spacing: -0.02em;
+    }
+
+    // .collection__link
+
+    &__link {
+        width: max-content;
+        font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+        line-height: 175%;
+        letter-spacing: -0.03em;
+        color: var(--text-color-darken);
+
+        &::after {
+            background-color: var(--bg-color-darken);
+        }
+
+        svg {
+            fill: var(--bg-color-darken);
+            stroke: var(--bg-color-darken);
+        }
+    }
+}

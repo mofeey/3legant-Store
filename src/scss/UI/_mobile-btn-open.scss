@@ -1,0 +1,11 @@
+ .mobile-btn-open {
+    display: none;
+    z-index: 4;
+
+    @include sm {
+        display: inline-flex;
+        img {
+            width: 35px;
+        }
+    }
+}

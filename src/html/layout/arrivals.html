@@ -1,0 +1,17 @@
+<section class="section">
+    <div class="arrivals">
+        <div class="container">
+            <div class="arrivals__navigation">
+                <h2 class="title arrivals__title">New Arrivals</h2>
+                <div class="swiper-pagination arrivals__dots"></div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="swiper">
+                <div class="arrivals__cards swiper-wrapper">
+                    @@loop('../components/product-card-slider.html','./data/arrivals.json')
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

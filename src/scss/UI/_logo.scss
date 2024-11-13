@@ -1,0 +1,8 @@
+.logo {
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
+    line-height: 100%;
+    text-align: center;
+    color: var(--text-color-black);
+}

@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>3legant store</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="mobile-nav">
+			<div class="mobile-nav__header">
+				<div class="mobile-nav__top">
+					<a href="#!" class="logo mobile-nav__logo">3legant.</a>
+					<button class="mobile-btn-close mobile-nav__btn-close">
+						<svg class="btn-close__icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M11.4419 1.44194C11.686 1.19786 11.686 0.802136 11.4419 0.558058C11.1979 0.313981 10.8021 0.313981 10.5581 0.558058L6 5.11612L1.44194 0.558058C1.19786 0.313981 0.802136 0.313981 0.558058 0.558058C0.313981 0.802136 0.313981 1.19786 0.558058 1.44194L5.11612 6L0.558058 10.5581C0.313981 10.8021 0.313981 11.1979 0.558058 11.4419C0.802136 11.686 1.19786 11.686 1.44194 11.4419L6 6.88388L10.5581 11.4419C10.8021 11.686 11.1979 11.686 11.4419 11.4419C11.686 11.1979 11.686 10.8021 11.4419 10.5581L6.88388 6L11.4419 1.44194Z"
+								fill="#343839"
+							/>
+						</svg>
+					</button>
+				</div>
+				<form action="">
+					<img src="./img/icons/search-icon.svg" alt="search-icon" />
+					<input type="text" class="mobile-nav__search-input search-input" placeholder="Search" />
+				</form>
+				<ul class="mobile-nav__list">
+					<li class="mobile-nav__item"><a href="#!" class="mobile-nav__link">Home</a></li>
+					<button class="mobile-nav__item">
+						<a href="#!" class="mobile-nav__link">Shop</a>
+						<img src="./img/icons/nav-dropdown.svg" alt="menu" />
+					</button>
+					<button class="mobile-nav__item">
+						<a href="#!" class="mobile-nav__link">Product</a>
+						<img src="./img/icons/nav-dropdown.svg" alt="menu" />
+					</button>
+					<li class="mobile-nav__item"><a href="#!" class="mobile-nav__link">Contact Us</a></li>
+				</ul>
+			</div>
+
+			<div class="mobile-nav__footer">
+				<a href="#!" class="mobile-nav__footer-link">
+					Cart
+					<button class="counter mobile-nav__cart" href="#!">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M9 6L9 7C9 8.65685 10.3431 10 12 10C13.6569 10 15 8.65685 15 7V6"
+								stroke="#141718"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+							<path
+								d="M15.6116 3H8.3886C6.43325 3 4.76449 4.41365 4.44303 6.3424L2.77636 16.3424C2.37001 18.7805 4.25018 21 6.72194 21H17.2783C19.75 21 21.6302 18.7805 21.2238 16.3424L19.5572 6.3424C19.2357 4.41365 17.5669 3 15.6116 3Z"
+								stroke="#141718"
+								stroke-width="2"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</button>
+				</a>
+				<a href="#!" class="mobile-nav__footer-link">
+					Wishlist
+					<button class="counter mobile-nav__wishlist" href="#!">
+						<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+							/>
+						</svg>
+					</button>
+				</a>
+				<a href="#!" class="btn mobile-nav__btn">Sign In</a>
+				<div class="mobile-nav__icons">
+					<a class="mobile-nav__instagram" href="#!">
+						<img src="./img/icons/instagram-icon.svg" alt="instagram" />
+					</a>
+					<a class="mobile-nav__facebook" href="#!">
+						<img src="./img/icons/facebook-icon.svg" alt="facebook" />
+					</a>
+					<a class="mobile-nav__youtube" href="#!">
+						<img src="./img/icons/youtube-icon.svg" alt="youtube" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="promo">
+			<!-- link-wrapper -->
+			<a href="#!" class="link-wrapper"></a>
+			<!-- link-wrapper -->
+
+			<svg class="promo__icon" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M20.0181 12.8356L19.7727 13.5444H19.7727L20.0181 12.8356ZM20.0181 7.16437L20.2635 7.8731V7.8731L20.0181 7.16437ZM1.98189 12.8356L2.22727 13.5444H2.22727L1.98189 12.8356ZM1.98189 7.16437L1.73652 7.8731L1.73652 7.8731L1.98189 7.16437ZM14.5303 7.53033C14.8232 7.23744 14.8232 6.76256 14.5303 6.46967C14.2374 6.17678 13.7626 6.17678 13.4697 6.46967L14.5303 7.53033ZM7.46967 12.4697C7.17678 12.7626 7.17678 13.2374 7.46967 13.5303C7.76256 13.8232 8.23744 13.8232 8.53033 13.5303L7.46967 12.4697ZM5 18.25C3.20507 18.25 1.75 16.7949 1.75 15H0.25C0.25 17.6234 2.37665 19.75 5 19.75V18.25ZM20.25 15C20.25 16.7949 18.7949 18.25 17 18.25V19.75C19.6234 19.75 21.75 17.6234 21.75 15H20.25ZM17 1.75C18.7949 1.75 20.25 3.20507 20.25 5H21.75C21.75 2.37665 19.6234 0.25 17 0.25V1.75ZM5 0.25C2.37665 0.25 0.25 2.37665 0.25 5H1.75C1.75 3.20507 3.20507 1.75 5 1.75V0.25ZM20.2635 12.1269C19.3815 11.8216 18.75 10.9836 18.75 10H17.25C17.25 11.6424 18.3054 13.0363 19.7727 13.5444L20.2635 12.1269ZM18.75 10C18.75 9.01644 19.3815 8.17844 20.2635 7.8731L19.7727 6.45565C18.3054 6.96367 17.25 8.35761 17.25 10H18.75ZM3.25 10C3.25 10.9836 2.61845 11.8216 1.73652 12.1269L2.22727 13.5444C3.69461 13.0363 4.75 11.6424 4.75 10H3.25ZM1.73652 7.8731C2.61845 8.17844 3.25 9.01644 3.25 10H4.75C4.75 8.35762 3.69462 6.96367 2.22727 6.45565L1.73652 7.8731ZM21.75 6V5H20.25V6H21.75ZM20.25 14V15H21.75V14H20.25ZM0.25 14V15H1.75V14H0.25ZM1.75 6V5H0.25V6H1.75ZM17 18.25H5V19.75H17V18.25ZM17 0.25H5V1.75H17V0.25ZM1.73652 12.1269C1.05785 12.3619 0.25 12.9975 0.25 14H1.75C1.75 13.9441 1.77081 13.8708 1.85172 13.7813C1.9366 13.6873 2.06974 13.5989 2.22727 13.5444L1.73652 12.1269ZM20.2635 7.8731C20.9422 7.63813 21.75 7.00246 21.75 6H20.25C20.25 6.05587 20.2292 6.12917 20.1483 6.21871C20.0634 6.31265 19.9303 6.40111 19.7727 6.45565L20.2635 7.8731ZM2.22727 6.45565C2.06974 6.40111 1.9366 6.31265 1.85172 6.21871C1.77081 6.12917 1.75 6.05587 1.75 6H0.25C0.25 7.00246 1.05785 7.63813 1.73652 7.8731L2.22727 6.45565ZM19.7727 13.5444C19.9303 13.5989 20.0634 13.6873 20.1483 13.7813C20.2292 13.8708 20.25 13.9441 20.25 14H21.75C21.75 12.9975 20.9422 12.3619 20.2635 12.1269L19.7727 13.5444ZM8.25 7C8.25 7.13807 8.13807 7.25 8 7.25V8.75C8.9665 8.75 9.75 7.9665 9.75 7H8.25ZM8 7.25C7.86193 7.25 7.75 7.13807 7.75 7H6.25C6.25 7.9665 7.0335 8.75 8 8.75V7.25ZM7.75 7C7.75 6.86193 7.86193 6.75 8 6.75V5.25C7.0335 5.25 6.25 6.0335 6.25 7H7.75ZM8 6.75C8.13807 6.75 8.25 6.86193 8.25 7H9.75C9.75 6.0335 8.9665 5.25 8 5.25V6.75ZM14.25 13C14.25 13.1381 14.1381 13.25 14 13.25V14.75C14.9665 14.75 15.75 13.9665 15.75 13H14.25ZM14 13.25C13.8619 13.25 13.75 13.1381 13.75 13H12.25C12.25 13.9665 13.0335 14.75 14 14.75V13.25ZM13.75 13C13.75 12.8619 13.8619 12.75 14 12.75V11.25C13.0335 11.25 12.25 12.0335 12.25 13H13.75ZM14 12.75C14.1381 12.75 14.25 12.8619 14.25 13H15.75C15.75 12.0335 14.9665 11.25 14 11.25V12.75ZM13.4697 6.46967L7.46967 12.4697L8.53033 13.5303L14.5303 7.53033L13.4697 6.46967Z"
+					fill="#FEFEFE"
+				/>
+			</svg>
+			<a class="promo__text">30% off storewide&#160;&#8212; Limited time!</a>
+
+			<!-- UI link-more-->
+			<a href="#!" class="link-more promo__link">
+				Shop Now
+				<svg class="link-more__icon promo__link-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M3.75 9H14.25" stroke="#none" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M9.75 13.5L14.25 9" stroke="#none" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M9.75 4.5L14.25 9" stroke="#none" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+			</a>
+			<!-- UI link-more-->
+
+			<!-- UI btn-close-->
+			<button class="btn-close promo__btn-close">
+				<svg class="btn-close__icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M11.4419 1.44194C11.686 1.19786 11.686 0.802136 11.4419 0.558058C11.1979 0.313981 10.8021 0.313981 10.5581 0.558058L6 5.11612L1.44194 0.558058C1.19786 0.313981 0.802136 0.313981 0.558058 0.558058C0.313981 0.802136 0.313981 1.19786 0.558058 1.44194L5.11612 6L0.558058 10.5581C0.313981 10.8021 0.313981 11.1979 0.558058 11.4419C0.802136 11.686 1.19786 11.686 1.44194 11.4419L6 6.88388L10.5581 11.4419C10.8021 11.686 11.1979 11.686 11.4419 11.4419C11.686 11.1979 11.686 10.8021 11.4419 10.5581L6.88388 6L11.4419 1.44194Z"
+						fill="#343839"
+					/>
+				</svg>
+			</button>
+			<!-- UI btn-close-->
+		</div>
+
+		<nav class="nav">
+			<div class="container">
+				<div class="nav__content">
+					<a href="#!" class="logo nav__logo">
+						<button class="mobile-btn-open">
+							<img src="./img/icons/mobile-open.svg" alt="mobile-open" /></button
+						>3legant
+					</a>
+					<ul class="nav__list">
+						<li class="nav__item"><a href="#!" class="nav__link">Home</a></li>
+						<button class="nav__item">
+							<a href="#!" class="nav__link">Shop</a>
+							<img src="./img/icons/nav-dropdown.svg" alt="menu" />
+						</button>
+						<button class="nav__item">
+							<a href="#!" class="nav__link">Product</a>
+							<img src="./img/icons/nav-dropdown.svg" alt="menu" />
+						</button>
+						<li class="nav__item"><a href="#!" class="nav__link">Contact Us</a></li>
+					</ul>
+					<div class="nav__icons">
+						<button class="nav__search" href="#!">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M18.5 18.5L22 22M21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21C16.7467 21 21 16.7467 21 11.5Z"
+									stroke="#141718"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+						<button class="nav__user" href="#!">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M18.5588 19.5488C17.5654 16.8918 15.0036 15 12 15C8.99638 15 6.4346 16.8918 5.44117 19.5488M18.5588 19.5488C20.6672 17.7154 22 15.0134 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 15.0134 3.33285 17.7154 5.44117 19.5488M18.5588 19.5488C16.8031 21.0756 14.5095 22 12 22C9.49052 22 7.19694 21.0756 5.44117 19.5488M15 9C15 10.6569 13.6569 12 12 12C10.3431 12 9 10.6569 9 9C9 7.34315 10.3431 6 12 6C13.6569 6 15 7.34315 15 9Z"
+									stroke="#141718"
+									stroke-width="1.5"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+						<button class="counter nav__cart" href="#!">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9 6L9 7C9 8.65685 10.3431 10 12 10C13.6569 10 15 8.65685 15 7V6"
+									stroke="#141718"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M15.6116 3H8.3886C6.43325 3 4.76449 4.41365 4.44303 6.3424L2.77636 16.3424C2.37001 18.7805 4.25018 21 6.72194 21H17.2783C19.75 21 21.6302 18.7805 21.2238 16.3424L19.5572 6.3424C19.2357 4.41365 17.5669 3 15.6116 3Z"
+									stroke="#141718"
+									stroke-width="1.5"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="hero">
+			<div class="container">
+				<div class="hero__content">
+					<h1 class="hero__title">Listen to&#160;<br />the <span>amazing</span> music sound.</h1>
+					<p class="hero__subtitle">Experience music like never before</p>
+					<a href="#!" class="btn hero__btn">Shopping Now</a>
+				</div>
+			</div>
+		</div>
+
+		<section class="section">
+			<div class="arrivals">
+				<div class="container">
+					<div class="arrivals__navigation">
+						<h2 class="title arrivals__title">New Arrivals</h2>
+						<div class="swiper-pagination arrivals__dots"></div>
+					</div>
+				</div>
+				<div class="container-right">
+					<div class="swiper">
+						<div class="arrivals__cards swiper-wrapper">
+							<div class="product-card swiper-slide">
+								<div class="product-card__picture">
+									<div class="badge product-card__badge">NEW</div>
+									<a href="#!" class="wishlist product-card__wishlist">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+											/>
+										</svg>
+									</a>
+									<img src="./img/arrivals-01.webp" alt="Headphones" />
+									<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+								</div>
+								<div class="product-card__desc">
+									<div class="product-card__rating">
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+									</div>
+									<h3 class="product-card__title">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</h3>
+									<div class="product-card__price">$299.99</div>
+								</div>
+							</div>
+							<div class="product-card swiper-slide">
+								<div class="product-card__picture">
+									<div class="badge product-card__badge">NEW</div>
+									<a href="#!" class="wishlist product-card__wishlist">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+											/>
+										</svg>
+									</a>
+									<img src="./img/arrivals-02.webp" alt="Headphones" />
+									<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+								</div>
+								<div class="product-card__desc">
+									<div class="product-card__rating">
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+									</div>
+									<h3 class="product-card__title">
+										Beats <br />
+										Studio Pro
+									</h3>
+									<div class="product-card__price">$349.99</div>
+								</div>
+							</div>
+							<div class="product-card swiper-slide">
+								<div class="product-card__picture">
+									<div class="badge product-card__badge">NEW</div>
+									<a href="#!" class="wishlist product-card__wishlist">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+											/>
+										</svg>
+									</a>
+									<img src="./img/arrivals-03.webp" alt="Headphones" />
+									<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+								</div>
+								<div class="product-card__desc">
+									<div class="product-card__rating">
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+									</div>
+									<h3 class="product-card__title">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</h3>
+									<div class="product-card__price">$149.99</div>
+								</div>
+							</div>
+							<div class="product-card swiper-slide">
+								<div class="product-card__picture">
+									<div class="badge product-card__badge">NEW</div>
+									<a href="#!" class="wishlist product-card__wishlist">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+											/>
+										</svg>
+									</a>
+									<img src="./img/arrivals-04.webp" alt="Headphones" />
+									<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+								</div>
+								<div class="product-card__desc">
+									<div class="product-card__rating">
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+									</div>
+									<h3 class="product-card__title">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</h3>
+									<div class="product-card__price">$79.99</div>
+								</div>
+							</div>
+							<div class="product-card swiper-slide">
+								<div class="product-card__picture">
+									<div class="badge product-card__badge">NEW</div>
+									<a href="#!" class="wishlist product-card__wishlist">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+											/>
+										</svg>
+									</a>
+									<img src="./img/arrivals-05.webp" alt="Headphones" />
+									<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+								</div>
+								<div class="product-card__desc">
+									<div class="product-card__rating">
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+									</div>
+									<h3 class="product-card__title">
+										Beats <br />
+										Studio Pro
+									</h3>
+									<div class="product-card__price">$249.99</div>
+								</div>
+							</div>
+							<div class="product-card swiper-slide">
+								<div class="product-card__picture">
+									<div class="badge product-card__badge">NEW</div>
+									<a href="#!" class="wishlist product-card__wishlist">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+											/>
+										</svg>
+									</a>
+									<img src="./img/arrivals-06.webp" alt="Headphones" />
+									<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+								</div>
+								<div class="product-card__desc">
+									<div class="product-card__rating">
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+
+										<img src="./img/icons/star-icon.svg" alt="Star" />
+									</div>
+									<h3 class="product-card__title">
+										JBL Reflect <br />
+										Flow Pro+
+									</h3>
+									<div class="product-card__price">$179.95</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="collection">
+					<h2 class="title collection__title">Shop Collection</h2>
+					<div class="collection__cards">
+						<div class="collection__card collection__card_headband">
+							<a href="#!" class="link-wrapper"></a>
+							<div class="collection__info">
+								<h3 class="collection__name">Headband</h3>
+								<a href="#!" class="link-more collection__link">
+									Collection
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3.75 9H14.25" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.75 13.5L14.25 9" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.75 4.5L14.25 9" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="collection__card collection__card_earbuds">
+							<a href="#!" class="link-wrapper"></a>
+							<div class="collection__info">
+								<h3 class="collection__name">Earbuds</h3>
+								<a href="#!" class="link-more collection__link">
+									Collection
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3.75 9H14.25" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.75 13.5L14.25 9" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.75 4.5L14.25 9" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="collection__card collection__card_accessories">
+							<a href="#!" class="link-wrapper"></a>
+							<div class="collection__info">
+								<h3 class="collection__name">Accessories</h3>
+								<a href="#!" class="link-more collection__link">
+									Collection
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3.75 9H14.25" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.75 13.5L14.25 9" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.75 4.5L14.25 9" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="best-seller">
+					<h2 class="title best-seller__title">Best Seller</h2>
+					<div class="best-seller__cards">
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-01.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</h3>
+								<div class="product-card__price">$299.99</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-02.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">
+									Beats <br />
+									Studio Pro
+								</h3>
+								<div class="product-card__price">$349.99</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-03.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</h3>
+								<div class="product-card__price">$149.99</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-04.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</h3>
+								<div class="product-card__price">$79.99</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-05.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">
+									Beats <br />
+									Studio Pro
+								</h3>
+								<div class="product-card__price">$249.99</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-06.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">
+									JBL Reflect <br />
+									Flow Pro+
+								</h3>
+								<div class="product-card__price">$179.95</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-07.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">Bose Quiet Comfort Headphones</h3>
+								<div class="product-card__price">$179.95</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__picture">
+								<div class="badge product-card__badge">HOT</div>
+								<a href="#!" class="wishlist product-card__wishlist">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z"
+										/>
+									</svg>
+								</a>
+								<img src="./img/arrivals-08.webp" alt="Headphones" />
+								<a href="#!" class="btn product-card__btn">Add to&#160;cart</a>
+							</div>
+							<div class="product-card__desc">
+								<div class="product-card__rating">
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+
+									<img src="./img/icons/star-icon.svg" alt="Star" />
+								</div>
+								<h3 class="product-card__title">AKG Y600NC Wireless</h3>
+								<div class="product-card__price">$179.95</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="offer">
+				<div class="offer__img"></div>
+				<div class="offer__content">
+					<div class="container">
+						<p class="offer__promo">PROMOTION</p>
+						<h2 class="offer__title">Hurry up! 40% OFF</h2>
+						<p class="offer__sub">Thousands of&#160;high tech are waiting for you</p>
+						<p class="offer__expires">Offer expires in:</p>
+						<div class="offer__timers">
+							<div class="offer__timer">
+								<div class="offer__timer-value" id="days">02</div>
+								<p class="offer__timer-desc">Days</p>
+							</div>
+							<div class="offer__timer">
+								<div class="offer__timer-value" id="hours">02</div>
+								<p class="offer__timer-desc">Hours</p>
+							</div>
+							<div class="offer__timer">
+								<div class="offer__timer-value" id="minutes">02</div>
+								<p class="offer__timer-desc">Minutes</p>
+							</div>
+							<div class="offer__timer">
+								<div class="offer__timer-value" id="seconds">02</div>
+								<p class="offer__timer-desc">Seconds</p>
+							</div>
+						</div>
+						<a href="#!" class="btn offer__btn">Shop now</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section_features">
+			<div class="container">
+				<div class="features">
+					<div class="features__item">
+						<img src="./img/icons/shipping-icon.svg" alt="" class="features__icon" />
+						<h4 class="features__title">Free Shipping</h4>
+						<p class="features__text">Order above $200</p>
+					</div>
+					<div class="features__item">
+						<img src="./img/icons/money-icon.svg" alt="" class="features__icon" />
+						<h4 class="features__title">Money-back</h4>
+						<p class="features__text">30 days guarantee</p>
+					</div>
+					<div class="features__item">
+						<img src="./img/icons/secure-icon.svg" alt="" class="features__icon" />
+						<h4 class="features__title">Secure Payments</h4>
+						<p class="features__text">Secured by&#160;Stripe</p>
+					</div>
+					<div class="features__item">
+						<img src="./img/icons/call-icon.svg" alt="" class="features__icon" />
+						<h4 class="features__title">24/7 Support</h4>
+						<p class="features__text">Phone and Email support</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<div class="social">
+					<div class="social__content">
+						<p class="social__feed">newsfeed</p>
+						<h2 class="social__title">Instagram</h2>
+						<p class="social__text">Follow us&#160;on&#160;social media for more discount & promotions</p>
+						<a href="#!" class="social__link">@3legant_official</a>
+					</div>
+					<div class="social__pictures">
+						<img src="./img/social1.jpg" alt="social1" class="social__img" />
+						<img src="./img/social2.jpg" alt="social2" class="social__img" />
+						<img src="./img/social3.jpg" alt="social3" class="social__img" />
+						<img src="./img/social4.jpg" alt="social4" class="social__img" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section_sign-up">
+			<div class="container">
+				<div class="sign-up">
+					<h3 class="sign-up__title">Join Our Newsletter</h3>
+					<p class="sign-up__subtitle">Sign up&#160;for deals, new products and promotions</p>
+					<div class="sign-up__input">
+						<img class="sign-up__icon" src="./img/icons/email-icon.svg" alt="email" />
+						<input type="text" placeholder="Email address" />
+						<button type="button">Signup</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__top">
+						<div class="footer__title">
+							<a href="#!" class="footer__logo">3legant<span>.</span></a>
+							<div class="footer__slash"></div>
+							<div class="footer__text">Headphone Store</div>
+						</div>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#!" class="footer__link">Home</a></li>
+							<li class="footer__item"><a href="#!" class="footer__link">Shop</a></li>
+							<li class="footer__item"><a href="#!" class="footer__link">Product</a></li>
+							<li class="footer__item"><a href="#!" class="footer__link">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__info">
+							<p class="footer__copyright">Copyright &#169; 2023 3legant. All rights reserved</p>
+							<a href="#!" class="footer__policy">Privacy Policy</a>
+							<a href="#!" class="footer__terms">Terms of&#160;Use</a>
+						</div>
+						<div class="footer__socials">
+							<a class="footer__social" href="#!">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect x="2" y="2" width="20" height="20" rx="4" stroke-width="1.5" />
+									<circle cx="18" cy="6" r="1" />
+									<circle cx="12" cy="12" r="5" stroke-width="1.5" />
+								</svg>
+							</a>
+							<a class="footer__social" href="#!">
+								<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M18 3H15C12.2386 3 10 5.23858 10 8V10H6V14H10V21H14V14H18V10H14V8C14 7.44772 14.4477 7 15 7H18V3Z"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</a>
+							<a class="footer__social" href="#!">
+								<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+									<rect x="2" y="3" width="20" height="18" rx="4" stroke-width="1.5" />
+									<path
+										d="M10.4472 8.72361L15.2111 11.1056C15.9482 11.4741 15.9482 12.5259 15.2111 12.8944L10.4472 15.2764C9.78231 15.6088 9 15.1253 9 14.382V9.61803C9 8.87465 9.78231 8.39116 10.4472 8.72361Z"
+										stroke-width="1.5"
+										stroke-linecap="round"
+									/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="./js/index.bundle.js" defer></script>
+</html>

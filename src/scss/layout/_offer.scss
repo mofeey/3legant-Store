@@ -1,0 +1,135 @@
+.offer {
+    display: flex;
+
+    @include md {
+        flex-direction: column-reverse;
+        height: clamp(46.875rem, 40.0163rem + 29.2636vw, 54.0625rem);
+    }
+
+    &__img {
+        width: 50%;
+        background-color: #999;
+        background-image: url('../../img/offer.webp');
+        background-position: center center;
+        /* x y */
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        @include md {
+            width: 100%;
+            height: 50%;
+        }
+    }
+
+    // .offer__content
+
+    &__content {
+        width: 50%;
+        padding-top: clamp(1.875rem, 0.3125rem + 6.6667vw, 6.3125rem);
+        padding-bottom: clamp(1.875rem, 0.3125rem + 6.6667vw, 6.3125rem);
+        padding-left: clamp(2rem, 1.1197rem + 3.7559vw, 4.5rem);
+        padding-right: 32px;
+        background-color: rgba(var(--accent-yellow-rgb), 0.4);
+
+        & .container {
+            padding: 0;
+        }
+
+        @include md {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    // .offer__promo
+
+    &__promo {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: var(--accent-blue);
+    }
+
+    // .offer__title
+
+    &__title {
+        font-family: var(--font-secondary);
+        font-weight: 500;
+        font-size: clamp(2.125rem, 2.0179rem + 0.5357vw, 2.5rem);
+        line-height: 110%;
+        letter-spacing: -0.01em;
+        color: var(--text-color-darken);
+        margin: 16px 0 16px;
+    }
+
+    // .offer__sub
+
+    &__sub {
+        font-weight: 400;
+        font-size: clamp(0.875rem, 0.7679rem + 0.5357vw, 1.25rem);
+        line-height: 160%;
+        color: var(--text-color-darken);
+    }
+
+    &__expires {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: var(--text-color-dark);
+        margin-top: 24px;
+    }
+
+    &__timers {
+        display: flex;
+        column-gap: 16px;
+        margin: 12px 0 24px;
+
+        @include md {
+            justify-content: center;
+        }
+
+        @include x-sm {
+            column-gap: 10px;
+        }
+    }
+
+    &__timer-value {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 112%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        background-color: #FEFEFE;
+        color: var(--text-color-dark);
+
+        @include x-sm {
+            font-size: 30px;
+            width: 55px;
+            height: 55px;
+        }
+    }
+
+    &__timer-desc {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 167%;
+        text-align: center;
+        color: var(--text-color-dark);
+    }
+
+    // .offer__btn
+
+    &__btn {
+        padding: 6px 40px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: -0.03em;
+    }
+}

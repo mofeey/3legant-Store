@@ -1,0 +1,19 @@
+.counter {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+
+    &::after {
+        content: '2';
+        display: inline-flex;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: var(--color-dark);
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

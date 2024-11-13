@@ -1,0 +1,23 @@
+.wishlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+    box-shadow: 0 8px 16px -8px rgba(15, 15, 15, 0.12);
+    background-color: var(--bg-color-white);
+
+    svg {
+        fill: var(--bg-color-gray);
+    }
+
+    &_active {
+        background: var(--bg-color-dark);
+
+        svg {
+            fill: var(--bg-color-white);
+        }
+    }
+}
