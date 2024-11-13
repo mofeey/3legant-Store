@@ -1,4 +1,4 @@
-# Project **3legant Store** — Furniture Online Store
+# Project **3legant Store** — Online store selling headphones and accessories
 
 **3legant Store** is an online store selling headphones and accessories. The project uses a modern tech stack and is fully optimized for mobile and desktop devices.
 
